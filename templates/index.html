@@ -1,144 +1,101 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>More Recipe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/login.css" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+	<title>More Recipe</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="row vertical-offset-100">
-            <div class="col-sm-6 col-sm-offset-3  col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
-                <div id="container_demo">
-                    <a class="hiddenanchor" id="toregister"></a>
-                    <a class="hiddenanchor" id="tologin"></a>
-                    <a class="hiddenanchor" id="toforgot"></a>
-                    <div id="wrapper">
-                        <div id="login" class="animate form">
-                            <form action="index.html" autocomplete="on" method="post">
-                                <h3 class="black_bg">
-                                    <br>Log in</h3>
-                                <p>
-                                    <label style="margin-bottom:0px;" for="username" class="uname"> <i class="livicon" data-name="user" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        E- mail or Username
-                                    </label>
-                                    <input id="username" name="username" required type="text" placeholder="username or e-mail" />
-                                </p>
-                                <p>
-                                    <label style="margin-bottom:0px;" for="password" class="youpasswd"> <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Password
-                                    </label>
-                                    <input id="password" name="password" required type="password" placeholder="eg. X8df!90EO" />
-                                </p>
-                                <p class="keeplogin">
-                                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
-                                    <label for="loginkeeping">Keep me logged in</label>
-                                </p>
-                                <p class="login button">
-                                    <input type="submit" value="Login" class="btn btn-success" />
-                                </p>
-                                <p class="change_link">
-                                    <a href="#toforgot">
-                                        <button type="button" class="btn btn-responsive botton-alignment btn-warning btn-sm">Forgot password</button>
-                                    </a>
-                                    <a href="#toregister">
-                                        <button type="button" class="btn btn-responsive botton-alignment btn-success btn-sm" style="float:right;">Sign up</button>
-                                    </a>
-                                </p>
-                            </form>
-                        </div>
-                        <div id="register" class="animate form">
-                            <form action="index.html" autocomplete="on" method="post">
-                                <h3 class="black_bg">
-                                    <br>Sign Up</h3>
-                                <div class="form-group">
-                                        <label style="margin-bottom:0px;" for="first_name" class="youmail">
-                                            <i class="livicon" data-name="user" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                            First Name
-                                        </label>
-                                        <input id="first_name" name="first_name" required type="text" placeholder="John" />
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label style="margin-bottom:0px;" for="last_name" class="youmail">
-                                            <i class="livicon" data-name="user" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                            Last Name
-                                        </label>
-                                        <input id="last_name" name="last_name" required type="text" placeholder="Doe" />
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label style="margin-bottom:0px;" for="email" class="youmail">
-                                            <i class="livicon" data-name="mail" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                            E-mail
-                                        </label>
-                                        <input id="email" name="email" required type="email" placeholder="mysupermail@mail.com" />
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label style="margin-bottom:0px;" for="email" class="youmail">
-                                            <i class="livicon" data-name="mail" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                            Confirm E-mail
-                                        </label>
-                                        <input id="email_confirm" name="email_confirm" required type="email" placeholder="mysupermail@mail.com" />
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label style="margin-bottom:0px;" for="password" class="youpasswd">
-                                            <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                            Password
-                                        </label>
-                                        <input id="password" name="password" required type="password" placeholder="eg. X8df!90EO" />
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label style="margin-bottom:0px;" for="passwor_confirm" class="youpasswd">
-                                            <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                            Confirm Password
-                                        </label>
-                                        <input id="password_confirm" name="password_confirm" required type="password" placeholder="eg. X8df!90EO" />
-                                    </div>
-                                
-                                <p class="signin button">
-                                    <input type="submit" class="btn btn-success" value="Sign up" />
-                                </p>
-                                <p class="change_link">
-                                    <a href="#tologin" class="to_register">
-                                        <button type="button" class="btn btn-responsive botton-alignment btn-warning btn-sm">Back</button>
-                                    </a>
-                                </p>
-                            </form>
-                        </div>
-                        <div id="forgot" class="animate form">
-                            <form action="index.html" autocomplete="on" method="post">
-                                <h3 class="black_bg">Password</h3>
-                                <p>
-                                    Enter your email address below and we'll send a special reset password link to your inbox.
-                                </p>
-                                <p>
-                                    <label style="margin-bottom:0px;" for="emailsignup1" class="youmai">
-                                        <i class="livicon" data-name="mail" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Your email
-                                    </label>
-                                    <input id="emailsignup1" name="emailsignup" required type="email" placeholder="your@mail.com" />
-                                </p>
-                                <p class="login button">
-                                    <input type="submit" value="Login" class="btn btn-success" />
-                                </p>
-                                <p class="change_link">
-                                    <a href="#tologin" class="to_register">
-                                        <button type="button" class="btn btn-responsive botton-alignment btn-warning btn-sm">Back</button>
-                                    </a>
-                                </p>
-                            </form>
-                        </div>
-                    </div>
+<div class="container">
+	<div class="row">
+		<div class="navbar-wrapper">
+    		<div class="container-fluid">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">More Recipe</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" class="">Home</a></li>
+                        <li><a href="#">Add Recipe</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+                        <li>
+                            <a href=""><span class=" glyphicon glyphicon-search"></span></a>
+                        </li>
+                        <li> <a href="">My profile</a></li>
+                        <li class=""><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    		</div>
+		</div>
+	</div>
+	<div class="clear-fix"></div>
+    <div class="row" style="margin-top: 60px">
+        <div class="col-md-6 col-lg-6">
+            <div class="blog-stripe">
+                <a href="#">
+                    <img src="http://placehold.it/500x400" alt="" class="feature">
+                </a>
+                <div class="block-title">
+                    <h2 class="text-xs-center">Featured article title</h2>
+                    <p class="author text-xs-center"><small>Author name</small></p>
                 </div>
             </div>
         </div>
+        <div class="col-md-6 col-lg-6">
+            <ul class="all-blogs">
+                <li class="media">
+                    <a class="float-xs-left" href="#">
+                        <img src="http://placehold.it/200x100" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Latest Google Updates</h4>
+                        <p class="author">Mike Smith</p>
+                    </div>
+                </li>
+                <li class="media">
+                    <a class="float-xs-left" href="#">
+                        <img class="media-object" src="http://placehold.it/200x100" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Newest bootstrap version</h4>
+                        <p class="author">Dave Hesler</p>
+                    </div>
+                </li>
+                <li class="media">
+                    <a class="float-xs-left" href="#">
+                        <img class="media-object" src="http://placehold.it/200x100" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Android rolls our another update</h4>
+                        <p class="author">Michael Davis</p>
+                    </div>
+                </li>
+                <li class="media">
+                    <a class="float-xs-left" href="#">
+                        <img class="media-object" src="http://placehold.it/200x100" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Survey results are out</h4>
+                        <p class="author">Mike Smith</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
+</div>
+
+<script type="text/javascript" src="js/bootsrap.js"></script>
 </body>
 </html>
